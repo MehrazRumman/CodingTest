@@ -15,14 +15,11 @@ This guide will walk you through setting up an Airflow Docker environment using 
     ```
 
 2. **Activate the Virtual Environment**:
-    - On macOS/Linux:
+    - On linux:
         ```bash
         source airflow_env/bin/activate
         ```
-    - On Windows:
-        ```bash
-        .\airflow_env\Scripts\activate
-        ```
+    
 
 3. **Install Dependencies from `requirements.txt`**:
     ```bash
