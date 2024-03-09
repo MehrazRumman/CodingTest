@@ -65,7 +65,35 @@ This guide will walk you through setting up an Airflow Docker environment using 
 11. **Creating and Running DAGs**:
     - Use Airflow UI to create and manage your DAGs.
 
-## Additional Resources
+# Airflow DAGs for Website Scraping
 
-- [Airflow Documentation](https://airflow.apache.org/docs/)
-- [Docker Documentation](https://docs.docker.com/)
+This repository contains Airflow DAGs for scraping data from various websites using Python scripts.
+
+## Directory Structure
+
+The `dags` directory contains the following Python scripts for scraping different types of data from websites:
+
+1. **scrape_country.py**: Python script for scraping country details.
+2. **scrape_hockey.py**: Python script for scraping hockey data.
+3. **scrape_bikroy.py**: Python script for scraping job listings from Bikroy.
+
+## DAGs Configuration
+
+The following Airflow DAGs are configured to execute the scraping scripts:
+
+1. **dag1**:
+    - This DAG executes `scrape_country.py` and `scrape_hockey.py` scripts to scrape country details and hockey data.
+    - It is responsible for scraping general information.
+
+2. **dag2**:
+    - This DAG executes `scrape_bikroy.py` script to scrape job listings from Bikroy.
+    - It is dedicated to scraping job-related data.
+  
+
+# Here is some screen shots  
+
+
+
+
+
+
