@@ -91,9 +91,9 @@ The following Airflow DAGs are configured to execute the scraping scripts:
   
 
 # Here is some screen shots  
-![alt text](https://github.com/mehrazrumman/CodingTest/blob/main/image/mongo1.png?raw=true)
-
-
-
-
-
+![alt text](https://github.com/mehrazrumman/CodingTest/blob/main/image/mong1.png?raw=true)
+![alt text](https://github.com/mehrazrumman/CodingTest/blob/main/image/mong2.png?raw=true)
+![alt text](https://github.com/mehrazrumman/CodingTest/blob/main/image/mongo3.png?raw=true)
+![alt text](https://github.com/mehrazrumman/CodingTest/blob/main/image/cvs1.png?raw=true)
+![alt text](https://github.com/mehrazrumman/CodingTest/blob/main/image/csv2.png?raw=true)
+![alt text](https://github.com/mehrazrumman/CodingTest/blob/main/image/csv3.png?raw=true)
